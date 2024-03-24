@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumber.options.TestRunner" time="4.393" tests="5" errors="3" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\rashm\OneDrive\Desktop\UserAPI2\target\test-classes;C:\Users\rashm\OneDrive\Desktop\UserAPI2\target\classes;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\rashm\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\rashm\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\rashm\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\rashm\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\rashm\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.13.0\maven-compiler-plugin-3.13.0.jar;C:\Users\rashm\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.4.2\maven-shared-utils-3.4.2.jar;C:\Users\rashm\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\rashm\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\rashm\.m2\repository\org\codehaus\plexus\plexus-java\1.2.0\plexus-java-1.2.0.jar;C:\Users\rashm\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\rashm\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\rashm\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.15.0\plexus-compiler-api-2.15.0.jar;C:\Users\rashm\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.15.0\plexus-compiler-manager-2.15.0.jar;C:\Users\rashm\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\rashm\.m2\repository\org\codehaus\plexus\plexus-xml\3.0.0\plexus-xml-3.0.0.jar;C:\Users\rashm\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.15.0\plexus-compiler-javac-2.15.0.jar;C:\Users\rashm\.m2\repository\org\codehaus\plexus\plexus-utils\4.0.0\plexus-utils-4.0.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\rashm\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\rashm\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\rashm\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\rashm\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\rashm\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\rashm\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rashm\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\rashm\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\rashm\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\rashm\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\rashm\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\rashm\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\rashm\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\rashm\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\rashm\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\rashm\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\rashm\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\rashm\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\rashm\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\rashm\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\rashm\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\rashm\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\rashm\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\rashm\AppData\Local\Temp\surefire3853280930068972712\surefirebooter4661489418903584436.jar C:\Users\rashm\AppData\Local\Temp\surefire3853280930068972712 2024-03-24T13-38-04_062-jvmRun1 surefire13469095057144325519tmp surefire_08081296413746918711tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\rashm\OneDrive\Desktop\UserAPI2\target\test-classes;C:\Users\rashm\OneDrive\Desktop\UserAPI2\target\classes;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\rashm\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\rashm\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\rashm\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\rashm\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\rashm\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.13.0\maven-compiler-plugin-3.13.0.jar;C:\Users\rashm\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.4.2\maven-shared-utils-3.4.2.jar;C:\Users\rashm\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\rashm\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\rashm\.m2\repository\org\codehaus\plexus\plexus-java\1.2.0\plexus-java-1.2.0.jar;C:\Users\rashm\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\rashm\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\rashm\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.15.0\plexus-compiler-api-2.15.0.jar;C:\Users\rashm\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.15.0\plexus-compiler-manager-2.15.0.jar;C:\Users\rashm\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\rashm\.m2\repository\org\codehaus\plexus\plexus-xml\3.0.0\plexus-xml-3.0.0.jar;C:\Users\rashm\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.15.0\plexus-compiler-javac-2.15.0.jar;C:\Users\rashm\.m2\repository\org\codehaus\plexus\plexus-utils\4.0.0\plexus-utils-4.0.0.jar;C:\Users\rashm\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\rashm\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\rashm\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\rashm\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\rashm\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\rashm\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\rashm\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rashm\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\rashm\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\rashm\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\rashm\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\rashm\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\rashm\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\rashm\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\rashm\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\rashm\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\rashm\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\rashm\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\rashm\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\rashm\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\rashm\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\rashm\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\rashm\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\rashm\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\rashm\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\rashm\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rashm"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\rashm\OneDrive\Desktop\UserAPI2"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\rashm\AppData\Local\Temp\surefire3853280930068972712\surefirebooter4661489418903584436.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
+    <property name="user.name" value="rashm"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\rashm\.m2\repository"/>
+    <property name="cucumber.options" value="--tags@regression"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\rashm\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="C:\Users\rashm\OneDrive\Desktop\UserAPI2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\rashm\AppData\Local\Microsoft\WindowsApps;C:\Users\rashm\Downloads\allure-2.21.0\allure-2.21.0\bin;C:\Users\rashm\AppData\Roaming\npm;C:\Users\rashm\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Check User able to create new userID with valid data" classname="Title of your feature" time="3.197">
+    <failure message="expected:&lt;503&gt; but was:&lt;201&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<503> but was:<201>
+]]></failure>
+    <system-out><![CDATA[
+@tag @tag1 @regression
+Scenario: Check User able to create new userID with valid data                &amp#27;[90m# src/test/resources/features/Post.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser sets basic Authorization&amp#27;[0m                                         &amp#27;[90m# stepDefinition.GetAllUser.user_sets_basic_authorization()&amp#27;[0m
+sheetPathsrc/test/resources/data/testData.xlsx
+sheetNamepost
+keydatakeyvaluevalidpost
+keyFirstNamevalueonetwo
+keyLastNamevalueone
+keyemailidvalueinnmmmmmmmmjkkkjnnmiiujj@gmail.com
+keycontactnumbervalue3103799634
+keycountryvalueusa
+keyplotnumbervalueh-1
+keystreetvaluewaterbury
+keyzipcodevalue67856
+keystatevaluega
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser able to create new User with fields from &amp#27;[0m&amp#27;[32m&amp#27;[1m"post"&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m"validpost"&amp#27;[0m &amp#27;[90m# stepDefinition.User.user_able_to_create_new_user_with_fields_from_with(java.lang.String,java.lang.String)&amp#27;[0m
+/createusers
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser calls &amp#27;[0m&amp#27;[32m&amp#27;[1m"CreateUserAPI"&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m"POST"&amp#27;[0m&amp#27;[32m http request&amp#27;[0m                    &amp#27;[90m# stepDefinition.User.user_calls_with_http_request(java.lang.String,java.lang.String)&amp#27;[0m
+HTTP/1.1 503 Service Unavailable
+Connection: keep-alive
+Server: Cowboy
+Date: Sun, 24 Mar 2024 17:38:08 GMT
+Content-Length: 511
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711301888&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=O2LpTXDJ355ZeUN8%2FCuuSZuzssbiCaRoiFKadHfCbaI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711301888&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=O2LpTXDJ355ZeUN8%2FCuuSZuzssbiCaRoiFKadHfCbaI%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache, no-store
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8"/>
+    <title>Offline for Maintenance</title>
+    <style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+  </head>
+  <body>
+    <iframe frameborder="1" scrolling="auto" src="//www.herokucdn.com/error-pages/maintenance-mode.html"/>
+  </body>
+</html>
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mthe API call got success with status code &amp#27;[0m&amp#27;[31m&amp#27;[1m201&amp#27;[0m                          &amp#27;[90m# stepDefinition.User.the_api_call_got_success_with_status_code(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<503> but was:<201>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinition.User.the_api_call_got_success_with_status_code(User.java:65)
+	at âœ½.the API call got success with status code 201(file:///C:/Users/rashm/OneDrive/Desktop/UserAPI2/src/test/resources/features/Post.feature:12)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m&amp#27;[0m&amp#27;[36m&amp#27;[1m"status"&amp#27;[0m&amp#27;[36m in response body is &amp#27;[0m&amp#27;[36m&amp#27;[1m"OK"&amp#27;[0m                                       &amp#27;[90m# stepDefinition.User.in_response_body_is(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m&amp#27;[0m&amp#27;[36m&amp#27;[1m"scope"&amp#27;[0m&amp#27;[36m in response body is &amp#27;[0m&amp#27;[36m&amp#27;[1m"APP"&amp#27;[0m                                       &amp#27;[90m# stepDefinition.User.in_response_body_is(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mverify user  &amp#27;[0m&amp#27;[36m&amp#27;[1m"GetuseridAPI"&amp#27;[0m&amp#27;[36m using &amp#27;[0m&amp#27;[36m&amp#27;[1m"GET"&amp#27;[0m                                 &amp#27;[90m# stepDefinition.User.verify_user_id_using(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 24, 2024 1:38:04 PM io.cucumber.core.options.CucumberPropertiesParser lambda$warnWhenCucumberOptionsIsUsed$2
+WARNING: Passing commandline options via the property 'cucumber.options' is no longer supported. Please use individual properties instead. See the java doc on io.cucumber.core.options.Constants for details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="Verify if get all user functionality is working" classname="Title of your feature" time="0.171">
+    <failure message="expected:&lt;503&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<503> but was:<200>
+]]></failure>
+    <system-out><![CDATA[
+@tag @tag2 @regression
+Scenario: Verify if get all user functionality is working &amp#27;[90m# src/test/resources/features/Post.feature:18&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser sets basic Authorization&amp#27;[0m                     &amp#27;[90m# stepDefinition.GetAllUser.user_sets_basic_authorization()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser able to get all User&amp#27;[0m                         &amp#27;[90m# stepDefinition.User.user_able_to_get_all_user()&amp#27;[0m
+/users
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser calls &amp#27;[0m&amp#27;[32m&amp#27;[1m"GetUserAPI"&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m"GET"&amp#27;[0m&amp#27;[32m http request&amp#27;[0m    &amp#27;[90m# stepDefinition.User.user_calls_with_http_request(java.lang.String,java.lang.String)&amp#27;[0m
+HTTP/1.1 503 Service Unavailable
+Connection: keep-alive
+Server: Cowboy
+Date: Sun, 24 Mar 2024 17:38:09 GMT
+Content-Length: 511
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711301889&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=UkCaNBQ%2Bfn3stwTwsE3Z0ln2Ur1WoSrE38h%2BiUgAz68%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711301889&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=UkCaNBQ%2Bfn3stwTwsE3Z0ln2Ur1WoSrE38h%2BiUgAz68%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache, no-store
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8"/>
+    <title>Offline for Maintenance</title>
+    <style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+  </head>
+  <body>
+    <iframe frameborder="1" scrolling="auto" src="//www.herokucdn.com/error-pages/maintenance-mode.html"/>
+  </body>
+</html>
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mthe API call got success with status code &amp#27;[0m&amp#27;[31m&amp#27;[1m200&amp#27;[0m      &amp#27;[90m# stepDefinition.User.the_api_call_got_success_with_status_code(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<503> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinition.User.the_api_call_got_success_with_status_code(User.java:65)
+	at âœ½.the API call got success with status code 200(file:///C:/Users/rashm/OneDrive/Desktop/UserAPI2/src/test/resources/features/Post.feature:21)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m&amp#27;[0m&amp#27;[36m&amp#27;[1m"status"&amp#27;[0m&amp#27;[36m in response body is &amp#27;[0m&amp#27;[36m&amp#27;[1m"OK"&amp#27;[0m                   &amp#27;[90m# stepDefinition.User.in_response_body_is(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify if get user by name functionality is working" classname="Title of your feature" time="0.019">
+    <error message="parameterValue cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: parameterValue cannot be null
+</error>
+    <system-out><![CDATA[
+@tag @tag3 @regression
+Scenario: Verify if get user by name functionality is working &amp#27;[90m# src/test/resources/features/Post.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser sets basic Authorization&amp#27;[0m                         &amp#27;[90m# stepDefinition.GetAllUser.user_sets_basic_authorization()&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser able to get  User by name&amp#27;[0m                        &amp#27;[90m# stepDefinition.User.user_able_to_get_user_by_name()&amp#27;[0m
+      &amp#27;[31mjava.lang.IllegalArgumentException: parameterValue cannot be null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:515)
+	at stepDefinition.User.user_able_to_get_user_by_name(User.java:105)
+	at âœ½.User able to get  User by name(file:///C:/Users/rashm/OneDrive/Desktop/UserAPI2/src/test/resources/features/Post.feature:26)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser calls &amp#27;[0m&amp#27;[36m&amp#27;[1m"GetUserNameAPI"&amp#27;[0m&amp#27;[36m with &amp#27;[0m&amp#27;[36m&amp#27;[1m"GET"&amp#27;[0m&amp#27;[36m http request&amp#27;[0m    &amp#27;[90m# stepDefinition.User.user_calls_with_http_request(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe API call got success with status code &amp#27;[0m&amp#27;[36m&amp#27;[1m200&amp#27;[0m          &amp#27;[90m# stepDefinition.User.the_api_call_got_success_with_status_code(int)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m&amp#27;[0m&amp#27;[36m&amp#27;[1m"status"&amp#27;[0m&amp#27;[36m in response body is &amp#27;[0m&amp#27;[36m&amp#27;[1m"OK"&amp#27;[0m                       &amp#27;[90m# stepDefinition.User.in_response_body_is(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify if update user functionality is working" classname="Title of your feature" time="0.017">
+    <error message="parameterValue cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: parameterValue cannot be null
+</error>
+    <system-out><![CDATA[
+@tag @tag4 @regression
+Scenario: Verify if update user functionality is working  &amp#27;[90m# src/test/resources/features/Post.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser sets basic Authorization&amp#27;[0m                     &amp#27;[90m# stepDefinition.GetAllUser.user_sets_basic_authorization()&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser able to update new User&amp#27;[0m                      &amp#27;[90m# stepDefinition.User.user_able_to_update_new_user()&amp#27;[0m
+      &amp#27;[31mjava.lang.IllegalArgumentException: parameterValue cannot be null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:515)
+	at stepDefinition.User.user_able_to_update_new_user(User.java:98)
+	at âœ½.User able to update new User(file:///C:/Users/rashm/OneDrive/Desktop/UserAPI2/src/test/resources/features/Post.feature:33)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser calls &amp#27;[0m&amp#27;[36m&amp#27;[1m"UpdateUserAPI"&amp#27;[0m&amp#27;[36m with &amp#27;[0m&amp#27;[36m&amp#27;[1m"PUT"&amp#27;[0m&amp#27;[36m http request&amp#27;[0m &amp#27;[90m# stepDefinition.User.user_calls_with_http_request(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe API call got success with status code &amp#27;[0m&amp#27;[36m&amp#27;[1m200&amp#27;[0m      &amp#27;[90m# stepDefinition.User.the_api_call_got_success_with_status_code(int)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m&amp#27;[0m&amp#27;[36m&amp#27;[1m"status"&amp#27;[0m&amp#27;[36m in response body is &amp#27;[0m&amp#27;[36m&amp#27;[1m"OK"&amp#27;[0m                   &amp#27;[90m# stepDefinition.User.in_response_body_is(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mverify user  &amp#27;[0m&amp#27;[36m&amp#27;[1m"GetuseridAPI"&amp#27;[0m&amp#27;[36m using &amp#27;[0m&amp#27;[36m&amp#27;[1m"GET"&amp#27;[0m             &amp#27;[90m# stepDefinition.User.verify_user_id_using(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify if Delete user functionality is working" classname="Title of your feature" time="0.279">
+    <error message="Failed to parse the JSON document" type="io.restassured.path.json.exception.JsonPathException"><![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+]]></error>
+    <system-out><![CDATA[
+@tag @Delete @regression
+Scenario: Verify if Delete user functionality is working     &amp#27;[90m# src/test/resources/features/Post.feature:40&amp#27;[0m
+sheetPathsrc/test/resources/data/testData.xlsx
+sheetNamepost
+keydatakeyvaluevalidpost
+keyFirstNamevalueonetwo
+keyLastNamevalueone
+keyemailidvalueinnmmmmmmmmjkkkjnnmiiujj@gmail.com
+keycontactnumbervalue3103799634
+keycountryvalueusa
+keyplotnumbervalueh-1
+keystreetvaluewaterbury
+keyzipcodevalue67856
+keystatevaluega
+/createusers
+      &amp#27;[31mio.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at dataProvider.Utils.getJsonPath(Utils.java:51)
+	at stepDefinition.User.verify_user_id_using(User.java:81)
+	at stepDefinition.Hooks.beforeScenario(Hooks.java:22)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at dataProvider.Utils.getJsonPath(Utils.java:51)
+	at stepDefinition.User.verify_user_id_using(User.java:81)
+	at stepDefinition.Hooks.beforeScenario(Hooks.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mUser sets basic Authorization&amp#27;[0m                        &amp#27;[90m# stepDefinition.GetAllUser.user_sets_basic_authorization()&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mUser able to delete new User&amp#27;[0m                         &amp#27;[90m# stepDefinition.User.user_able_to_create_new_user()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser calls &amp#27;[0m&amp#27;[36m&amp#27;[1m"DeleteUserAPI"&amp#27;[0m&amp#27;[36m with &amp#27;[0m&amp#27;[36m&amp#27;[1m"DELETE"&amp#27;[0m&amp#27;[36m http request&amp#27;[0m &amp#27;[90m# stepDefinition.User.user_calls_with_http_request(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe API call got success with status code &amp#27;[0m&amp#27;[36m&amp#27;[1m200&amp#27;[0m         &amp#27;[90m# stepDefinition.User.the_api_call_got_success_with_status_code(int)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m&amp#27;[0m&amp#27;[36m&amp#27;[1m"status"&amp#27;[0m&amp#27;[36m in response body is &amp#27;[0m&amp#27;[36m&amp#27;[1m"OK"&amp#27;[0m                      &amp#27;[90m# stepDefinition.User.in_response_body_is(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mverify user  &amp#27;[0m&amp#27;[36m&amp#27;[1m"GetuseridAPI"&amp#27;[0m&amp#27;[36m using &amp#27;[0m&amp#27;[36m&amp#27;[1m"GET"&amp#27;[0m                &amp#27;[90m# stepDefinition.User.verify_user_id_using(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
